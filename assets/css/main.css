@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    article {
+        @apply m-auto w-11/12 xs:w-[420px] sm:w-[640px] xl:w-[1200px] xxl:w-[1600px]
+    }
+    p {
+        @apply text-justify
+    }
+}
